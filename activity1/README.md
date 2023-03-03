@@ -5,6 +5,13 @@
 - Refer to the following link. Discuss how the
   Recursive Factorial works:
   https://www.cs.usfca.edu/~galles/visualization/RecFact.html
+
+  Answer:
+    - The algorithm takes an integer n as an input.
+     It checks if n is equal to 0 or 1. If so, it returns 1 since 0! and 1! are both equal to 1.
+     If n is greater than 1, the algorithm calculates the factorial of n-1 recursively by calling itself with the input value of (n-1).
+    The result of the recursive call is then multiplied by n to get the factorial of n.
+
 - Refer to the following link. Discuss how the Recursive Fibonacci works:
   https://www.cs.usfca.edu/~galles/visualization/DPFib.html
 
